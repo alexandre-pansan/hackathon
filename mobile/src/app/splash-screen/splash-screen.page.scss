@@ -1,0 +1,57 @@
+@keyframes moveup {
+    0%   {top: 50%;opacity: 0;}
+    70%  {top: 50%;opacity: 1;}
+    100% {top: 40%;}
+}
+@keyframes fadein {
+    0%   {opacity: 0;}
+    70%  {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.back{
+    position:absolute;
+    width: 100vw;
+    height: 100vh;
+    background: #fff;
+}
+.splash{
+    position:absolute;
+    width:223px;
+    height:86px;
+    left: 50%;
+    top: 40%; 
+    transform: translateX(-50%) translateY(-50%);
+    animation-name: moveup;
+    animation-duration: 3s;
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    color: #F8544F;
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-size: 22px;
+    text-align: center;
+    animation-name: fadein;
+    animation-duration: 3s;
+}
+.loading{
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: #F28380;
+    animation-name: fadein;
+    animation-duration: 3s;
+}
+
+
+
+  

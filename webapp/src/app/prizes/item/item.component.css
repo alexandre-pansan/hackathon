@@ -1,0 +1,121 @@
+.search input{
+    width: calc(100% - 12em);
+    height: 3em;
+    background: #FFFFFF;
+    border: 1px solid #D5D5DC;
+    border-radius:4px;
+    margin:0px 10px 0px 0px;
+}
+.btn-search{
+    margin:0px 0px 0px 10px;
+    height: 3em;
+    width: 10em;
+    float: right;
+    background: #F8544F;
+    border-radius: 10.4503px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.bigSquare {
+    position: relative;
+    border: 2px solid #F8544F;
+    border-radius: 8px;
+    box-sizing: border-box;
+    height: 30em;
+    width: 100%;
+    font-size: 13px;
+    line-height: 10em;
+    vertical-align: middle;
+    padding: 10px;
+    padding-right: 5px;
+    padding-left: 2.5px;
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: bold;
+    color: #33303E;
+    margin-bottom: 1.5em;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.item h1{
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38.1134px;
+    line-height: 51px;
+    color: #33303E; 
+}
+.item p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22.2328px;
+    line-height: 35px;
+    color: #4E4B59;
+}
+.bigSquare .score {
+    position: absolute;
+    right: 20px;
+    bottom:20px;
+    opacity: 0.7;
+    height: 20px;
+    width: 80px;
+    background: linear-gradient(91.3deg, #DAD0FF 0.27%, rgba(218, 208, 255, 0) 119.54%);
+    border: 1px solid #FFBDBB;
+    box-sizing: border-box;
+    border-radius: 120px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 15px;
+    color: #F8544F;
+    text-align: center;
+}
+
+.resgate{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19.0567px;
+    line-height: 30px;
+    color: #4E4B59;
+}
+.resgate .label{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19.0567px;
+    line-height: 30px;
+    color: #4E4B59;
+}
+
+.resgate input{
+    width: calc(100%);
+    height: 3em;
+    background: #FFFFFF;
+    border: 1px solid #D5D5DC;
+    border-radius:4px;
+    margin:0px 10px 0px 0px;
+}
+.ou{
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 51px;
+    /* or 212% */
+    margin: 20px 0px 20px 0px;
+    letter-spacing: -0.01em;
+
+    /* gray / 01 */
+
+    color: #33303E;
+}

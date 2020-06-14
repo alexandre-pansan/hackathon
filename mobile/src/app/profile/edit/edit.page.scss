@@ -1,0 +1,221 @@
+//main body da pag, deixa este soldo desse jeitinho ai
+.main {
+    position: absolute;
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+	flex-direction: column;
+	overflow: auto;
+}
+//header.. so copia cola e muda.. bem facil :)
+.header {
+    width: 100%;
+    .title {
+        font-family: Montserrat Alternates;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        color: #33303E;
+        line-height: 3em;
+    }
+    .btn {
+        background-color:#fff;
+        float: right;
+        height: 30px;
+        width: 110px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 25px;
+        color: #F8544F;
+        margin-right: 0px;
+        margin-top: 2em;
+        text-align: center;
+    }
+}
+  
+  //css personalizado de cada pag 
+.plates {
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 32px;
+    letter-spacing: -0.01em;    
+    color: #33303E;
+    margin: 20px 0px 20px 0px;
+}
+.placa-slider{
+    margin-bottom: 60px;
+}
+.active-plates{
+    position: relative;
+    width:100%;
+    height: 6em;
+    border: 1px solid #E1E0E7;
+    border-radius: 4px;
+    margin: 10px 0px 10px 0px;
+    .text{
+        position: absolute;
+        left:calc(50% - 100px);
+        top:50%;
+        transform: translateY(-50%)  translateX(-50%);
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19.9184px;
+        color: #33303E;
+    }
+    .placa{
+        position: absolute;
+        left:50%;
+        top:50%;
+        transform: translateY(-50%)  translateX(-50%);
+        
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22.4082px;
+        color: #F8544F;
+    }
+    .status{
+        position: absolute;
+        left:calc(50% + 100px);
+        top:50%;
+        transform: translateY(-50%)  translateX(-50%);
+        height: 20px;
+        width: 20px;
+        background-color: #26CECE;
+        border-radius:50%;
+
+    }
+}
+.inactive-plates{
+    position: relative;
+    width:100%;
+    height: 6em;
+    background: #F6F4FF;
+    border: 1px solid #E1E0E7;
+    border-radius: 4px;
+    .text{
+        position: absolute;
+        left:calc(50% - 100px);
+        top:50%;
+        transform: translateY(-50%)  translateX(-50%);
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19.9184px;
+        color: #33303E;
+        opacity: 0.45;
+    }
+    .placa{
+        position: absolute;
+        left:50%;
+        top:50%;
+        transform: translateY(-50%)  translateX(-50%);
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22.4082px;
+        color: #33303E;
+        opacity: 0.45;  
+    }
+    .status{
+        position: absolute;
+        left:calc(50% + 100px);
+        top:50%;
+        transform: translateY(-50%)  translateX(-50%);
+        height: 20px;
+        width: 20px;
+        background: #CAD0E1;
+        opacity: 0.45;
+        border-radius:50%;
+
+    }
+}
+
+.label {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #4E4B59;
+    padding: 5px;
+}
+.edit-save-btn {
+    .edit-password-button {
+        color: #F8544F;
+        background-color: #FFFFFF;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 32px;
+    }
+    .save-button {
+        background: #F8544F;
+        border-radius: 6px;
+        width: 100%;
+        font-family: Montserrat Alternates;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 40px;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
+
+input{
+    border: 1px solid #DD403B;
+    height: 48px;
+    width:100%;
+    border-radius: 6px;
+    margin: 10px 0px 10px 0px ;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color:#000;
+}
+input:focus{
+    outline: none !important;
+    border: 2px solid #F96965;
+}
+label{
+    margin:20px 0px 20px 0px ;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    display:block;
+    color:#000;
+}
+
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	border-top: 2px solid #B8A7F5;
+	background-color: #fff;
+	width: 100vw;
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	color: #7683F6;
+	font-family: Inter;
+	font-style: normal;
+	font-size: 11px;
+	.img {
+		text-align: center;
+	}
+}

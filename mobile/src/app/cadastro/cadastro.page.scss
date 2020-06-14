@@ -1,0 +1,240 @@
+@keyframes To33 {
+    from{width:0%;}
+    to{width:33%}
+}
+@keyframes To66 {
+    from{width:33%;}
+    to{width:66%}
+}
+
+@keyframes To100 {
+    from{width:66%;}
+    to{width:100%}
+}
+@keyframes backTo0 {
+    from{width:33%;}
+    to{width:0%}
+}
+@keyframes backTo33 {
+    from{width:66%;}
+    to{width:33%}
+}
+
+@keyframes backTo66 {
+    from{width:100%;}
+    to{width:66%}
+}
+.main{
+    background: #fff;
+    height: 100vh;
+    color: #33303E;
+    padding:20px;
+    
+    .header{
+        display:block;
+        
+    
+        .loading{
+            
+            float: right;
+            height: 5px;
+            margin-top: 18px;
+            width:calc(100% - 60px);
+            background-color:#E1E0E7;
+            .progress0{
+                height: 5px;
+                width:0%;
+                background-color: #72DD9F;
+            }
+            .progress33{
+                height: 5px;
+                width:33%;
+                background-color: #72DD9F;
+                animation-name: To33;
+                animation-duration: 3s;
+            }
+            .progress66{
+                height: 5px;
+                width:66%;
+                background-color: #72DD9F;
+                animation-name: To66;
+                animation-duration: 3s;
+            }
+            .progress100{
+                height: 5px;
+                width:100%;
+                background-color: #72DD9F;
+                animation-name: To100;
+                animation-duration: 3s;
+            }
+            .regress0{
+                height: 5px;
+                width:0%;
+                background-color: #72DD9F;
+                animation-name: backTo0;
+                animation-duration: 3s;
+            }
+            .regress33{
+                height: 5px;
+                width:33%;
+                background-color: #72DD9F;
+                animation-name: backTo33;
+                animation-duration: 3s;
+            }
+            .regress66{
+                height: 5px;
+                width:66%;
+                background-color: #72DD9F;
+                animation-name: backTo66;
+                animation-duration: 3s;
+            }
+            
+        }
+    }
+    .success-password {
+        height: 100vh;
+        width: 100%;
+        text-align: center;
+        overflow: visible;
+        .info1{
+            font-family: Montserrat Alternates;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 28px;
+            line-height: 20px;
+            text-align: center;
+            color: #4E4B59;
+        }
+        .info2{
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
+            color: #4E4B59;
+        }
+        .hand{
+             margin:20px
+        }
+    }
+    .btn-success {
+        position: relative;
+        height: 48px;
+        width:50%;
+        border-radius: 6px;
+        background-color: #DD403B;
+        color: #E5E5E5;
+        font-family: Montserrat Alternates;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+    }
+    .register{
+        label{
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 22px;
+            display:block;
+        }
+        .title{
+            display:block;
+            font-family: Montserrat Alternates;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 32px;
+            display: inline;
+        }
+        p{
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 22px;
+        }
+        input[type=text], input[type=password]{
+            border: 1px solid #DD403B;
+            height: 48px;
+            width:100%;
+            border-radius: 6px;
+            margin: 10px 0px 10px 0px ;
+        }
+        [type="radio"]:checked,
+        [type="radio"]:not(:checked) {
+            position: absolute;
+            left: -9999px;
+        }
+        [type="radio"]:checked + label,
+        [type="radio"]:not(:checked) + label
+        {
+            position: relative;
+            padding-left: 32px;
+            cursor: pointer;
+            line-height: 28px;
+            display: inline-block;
+            color: #666;
+        }
+        [type="radio"]:checked + label:before,
+        [type="radio"]:not(:checked) + label:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 26px;
+            height: 26px;
+            border: 1px solid #F8544F;
+            border-radius: 100%;
+            background: #fff;
+        }
+        [type="radio"]:checked + label:after,
+        [type="radio"]:not(:checked) + label:after {
+            content: '';
+            width: 20px;
+            height: 20px;
+            background: #F8544F;
+            position: absolute;
+            top: 4px;
+            left: 4px;
+            border-radius: 100%;
+            -webkit-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+        }
+        [type="radio"]:not(:checked) + label:after {
+            opacity: 0;
+            -webkit-transform: scale(0);
+            transform: scale(0);
+        }
+        [type="radio"]:checked + label:after {
+            opacity: 1;
+            -webkit-transform: scale(1);
+            transform: scale(1);
+        }
+        input:focus{
+            outline: none !important;
+            border: 2px solid #F96965;
+        }
+    }
+}
+.btn{
+    position: absolute;
+    height: 48px;
+    width:50%;
+    border-radius: 6px;
+    margin: 10px 0px 10px 0px ;
+    background-color: #DD403B;
+    color: #E5E5E5;
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    float: right;
+    right: 20px;
+    bottom: 20px;
+}
+

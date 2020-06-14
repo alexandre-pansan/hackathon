@@ -1,0 +1,85 @@
+
+
+.search input{
+    width: calc(100% - 12em);
+    height: 3em;
+    background: #FFFFFF;
+    border: 1px solid #D5D5DC;
+    border-radius:4px;
+    margin:0px 10px 0px 0px;
+}
+.btn-search{
+    margin:0px 0px 0px 10px;
+    height: 3em;
+    width: 10em;
+    float: right;
+    background: #F8544F;
+    border-radius: 10.4503px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.square {
+    border: 1px solid #F8544F;
+    border-radius: 8px;
+    box-sizing: border-box;
+    height: 12em;
+    width: 12em;
+    margin: 10px;
+    font-size: 13px;
+    line-height: 10em;
+    vertical-align: middle;
+    padding: 8px;
+    padding-right: 2.5px;
+    line-height: 10px;
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: bold;
+    color: #33303E;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.square .score {
+    opacity: 0.7;
+    float: right;
+    height: 20px;
+    width: 80px;
+    background: linear-gradient(91.3deg, #DAD0FF 0.27%, rgba(218, 208, 255, 0) 119.54%);
+    border: 1px solid #FFBDBB;
+    box-sizing: border-box;
+    margin-top: 11.5em;
+    border-radius: 120px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 15px;
+    color: #F8544F;
+    margin-right: 0px;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 990px) {
+    .square{
+        width: 16em;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .square{
+        width: 18em;
+        
+    }
+}
+
+@media only screen and (max-width: 574px) {
+    .square{
+        width: 100%;
+        margin: 10px;
+    }
+}

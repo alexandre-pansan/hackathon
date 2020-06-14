@@ -1,0 +1,29 @@
+<div class="main">
+  <div class="header">
+    <svg (click)="this.redirect('onboarding')" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M25.3748 13.5655L13.5655 25.3747C13.0996 25.8406 13.0996 26.5959 13.5655 27.0618C14.0314 27.5276 14.7867 27.5276 15.2525 27.0618L27.0618 15.2525C27.5277 14.7866 27.5277 14.0313 27.0618 13.5655C26.596 13.0996 25.8406 13.0996 25.3748 13.5655Z" fill="#F8544F"/>
+      <path opacity="0.6" d="M27.0619 25.375L15.2526 13.5657C14.7868 13.0998 14.0315 13.0998 13.5656 13.5657C13.0997 14.0316 13.0997 14.7869 13.5656 15.2527L25.3749 27.062C25.8407 27.5279 26.596 27.5279 27.0619 27.062C27.5278 26.5961 27.5278 25.8408 27.0619 25.375Z" fill="#F8544F"/>
+    </svg>
+    <div>Login</div>
+  </div>
+  <form #form="ngForm" (submit)="login(form)">
+    
+    <label>CPF/CNPJ</label>
+    <input  required type="text" ngModel name="nome"/>
+  
+    <label>Senha</label>
+    <input required type="password" ngModel name="password"
+    />
+    
+  
+    <button type="submit" class='login btn' >
+      Acessar
+    </button>
+    
+  </form>
+</div>
+
+<div class="footer" (click)="this.redirect('registration')">
+  <div>Ainda nao tem uma conta?</div>
+  <div class=link>Cadastre-se gratuitamente!</div>
+</div>

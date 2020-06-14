@@ -1,0 +1,72 @@
+<ion-content>
+  <div class="main">
+    <div class="header">
+      <ion-row>
+        <ion-col>
+          <div class="title">Prêmios</div>
+        </ion-col>
+        <ion-col>
+          <div class="score">
+            <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M6.79252 11.1622L3.47459 12.9065C3.07748 13.1153 2.58631 12.9626 2.37754 12.5655C2.2944 12.4074 2.26571 12.2262 2.29591 12.0502L2.92958 8.35559L0.24532 5.73909C-0.0759501 5.42593 -0.0825239 4.91162 0.230637 4.59035C0.355339 4.46242 0.518736 4.37916 0.695532 4.35347L4.40509 3.81444L6.06406 0.453011C6.26261 0.0506933 6.74972 -0.114488 7.15204 0.0840673C7.31224 0.163133 7.44191 0.292806 7.52098 0.453011L9.17994 3.81444L12.8895 4.35347C13.3335 4.41799 13.6411 4.83021 13.5766 5.27419C13.5509 5.45099 13.4676 5.61438 13.3397 5.73909L10.6555 8.35559L11.2891 12.0502C11.365 12.4924 11.068 12.9123 10.6258 12.9881C10.4497 13.0183 10.2686 12.9897 10.1104 12.9065L6.79252 11.1622Z" fill="#FFC680"/>
+            </svg>
+            100pts
+          </div>
+        </ion-col>
+      </ion-row>
+    </div>
+    <div class="prizes" >
+      <div class="row">
+        <div class="column" *ngFor="let item of items"  >
+          
+          <div class="square avatar" style="background-image: url('{{item.img}}')" (click)="openReward(item.id)">
+            {{item.nome}}
+            <div class="score" >
+              <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.79252 11.1622L3.47459 12.9065C3.07748 13.1153 2.58631 12.9626 2.37754 12.5655C2.2944 12.4074 2.26571 12.2262 2.29591 12.0502L2.92958 8.35559L0.24532 5.73909C-0.0759501 5.42593 -0.0825239 4.91162 0.230637 4.59035C0.355339 4.46242 0.518736 4.37916 0.695532 4.35347L4.40509 3.81444L6.06406 0.453011C6.26261 0.0506933 6.74972 -0.114488 7.15204 0.0840673C7.31224 0.163133 7.44191 0.292806 7.52098 0.453011L9.17994 3.81444L12.8895 4.35347C13.3335 4.41799 13.6411 4.83021 13.5766 5.27419C13.5509 5.45099 13.4676 5.61438 13.3397 5.73909L10.6555 8.35559L11.2891 12.0502C11.365 12.4924 11.068 12.9123 10.6258 12.9881C10.4497 13.0183 10.2686 12.9897 10.1104 12.9065L6.79252 11.1622Z" fill="#FFC680"/>
+              </svg>
+              {{item.pts}}pts
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</ion-content>
+
+
+<ion-footer class="footer">
+  <ion-row>
+    <ion-col (click)="redirect('rewards')">
+      <div class="img">
+        <svg width="14" height="19" viewBox="0 0 14 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M9.1916 3.75692C8.83569 7.33494 7.76798 9.2493 5.98846 9.5C5.98846 9.5 7.59003 3.22022 5.45461 0C5.45461 0 5.22816 3.45041 2.94013 7.59083C1.86762 9.53165 0.649902 10.84 0.649902 13.4176C0.649902 17.098 4.39911 19 7.06228 19C9.72545 19 13.4624 17.7119 13.4624 13.2034C13.4624 11.3496 12.0388 8.20072 9.1916 3.75692Z" fill="url(#paint0_linear)"/>
+          <defs>
+            <linearGradient id="paint0_linear" x1="12.892" y1="-0.686311" x2="-5.34823" y2="12.0979" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#FFA26D"/>
+              <stop offset="1" stop-color="#FC6F91"/>
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+    Prêmios
+    </ion-col>
+    <ion-col (click)="redirect('ranking')">
+      <div class="img">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0.0397949" y="17.6665" width="17.6667" height="3.97878" rx="1.5" transform="rotate(-90 0.0397949 17.6665)" fill="#FF9E9B"/>
+          <rect opacity="0.4" x="13.3024" y="17.6665" width="17.6667" height="3.97878" rx="1.5" transform="rotate(-90 13.3024 17.6665)" fill="#FF9E9B"/>
+          <rect opacity="0.5" x="6.67117" y="17.6665" width="11.0417" height="3.97877" rx="1.5" transform="rotate(-90 6.67117 17.6665)" fill="#FF9E9B"/>
+        </svg>
+      </div>
+    </ion-col>
+    <ion-col (click)="redirect('profile')">
+      <div class="img" >
+        <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path opacity="0.5" d="M9.88461 8.44444C7.56511 8.44444 5.68478 6.55409 5.68478 4.22222C5.68478 1.89035 7.56511 0 9.88461 0C12.2041 0 14.0844 1.89035 14.0844 4.22222C14.0844 6.55409 12.2041 8.44444 9.88461 8.44444Z" fill="#FF9E9B"/>
+          <path d="M0.435712 18.1548C0.842683 13.117 4.90985 10.5557 9.86714 10.5557C14.8942 10.5557 19.0244 12.9763 19.3321 18.1557C19.3443 18.362 19.3321 19.0001 18.5433 19.0001C14.6526 19.0001 8.87114 19.0001 1.19887 19.0001C0.935555 19.0001 0.413544 18.4292 0.435712 18.1548Z" fill="#FF9E9B"/>
+        </svg>
+      </div>
+    </ion-col>
+  </ion-row>
+</ion-footer>

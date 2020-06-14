@@ -1,0 +1,70 @@
+.main{
+    background: #fff;
+    height: 100vh;
+    color: #33303E;
+    padding:20px;
+    .header{
+        display:block;
+        font-family: Montserrat Alternates;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+    form{
+        label{
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 22px;
+        }
+        
+        .btn{
+            height: 48px;
+            width:100%;
+            border-radius: 6px;
+            margin: 10px 0px 10px 0px ;
+        }
+        
+        .login{
+            background-color: #DD403B;
+            color: #E5E5E5;
+            font-family: Montserrat Alternates;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
+        }
+        input{
+            border:1px solid #DD403B;
+            height: 48px;
+            width:100%;
+            border-radius: 6px;
+            margin: 10px 0px 10px 0px ;
+        }
+        input:focus{
+            outline: none !important;
+            border: 2px solid #F96965;
+        }
+        
+    }
+    
+}
+.footer{
+    position: absolute;
+    text-align: center;
+    width:100%;
+    bottom:10%;
+    color: #33303E;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    .link{
+        color: #F8544F;
+        font-style: normal;
+        font-weight: bold;
+    }
+}

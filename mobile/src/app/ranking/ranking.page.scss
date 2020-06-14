@@ -1,0 +1,330 @@
+.main {
+  background-color: #fff;
+  width: 100vw;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.others2-position {
+  background: #FFD8D7;
+  border-radius: 5px;
+  height: 70px;
+  margin-top: 0.2em;
+  opacity: 0.95;
+  .profile-img {
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    left: 19px;
+    top: 16px;
+    background-image: 'assets/Ellipse21.svg';
+  }
+  .my-name {
+    height: 10px;
+    margin-top: 10px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 40px;
+    color: #000000;
+  }
+  .others-points {
+    font-family: Inter;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 60px;
+    text-align: center;
+    color: #000000;
+  }
+}
+.others-position {
+  background: #FCFBFF;
+  border-radius: 5px;
+  height: 70px;
+  margin-top: 0.2em;
+  opacity: 0.95;
+  .profile-img {
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    left: 19px;
+    top: 16px;
+    background-image: 'assets/Ellipse21.svg';
+  }
+  .my-name {
+    height: 10px;
+    margin-top: 10px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 40px;
+    color: #000000;
+  }
+  .others-points {
+    font-family: Inter;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 60px;
+    text-align: center;
+    color: #000000;
+  }
+}
+.third-position {
+  background: #FFD8D7;
+  border-radius: 5px;
+  height: 70px;
+  margin-top: 0.2em;
+  opacity: 0.95;
+  .third-colocation {
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9px;
+    line-height: 40px;
+    align-items: center;
+    color: #AA5302;
+    height: 5px;
+  }
+  .profile-img {
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    left: 19px;
+    top: 16px;
+    background-image: 'assets/Ellipse21.svg';
+  }
+  .my-name {
+    height: 10px;
+    margin-top: 10px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 40px;
+    color: #000000;
+  }
+  .others-points {
+    font-family: Inter;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 60px;
+    text-align: center;
+    color: #000000;
+  }
+}
+.second-position {
+  background: #FCFBFF;
+  border-radius: 5px;
+  height: 70px;
+  margin-top: 0.2em;
+  opacity: 0.95;
+  .second-colocation {
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9px;
+    line-height: 40px;
+    align-items: center;
+    color: #8E8E8E;
+    height: 5px;
+  }
+  .profile-img {
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    left: 19px;
+    top: 16px;
+    background-image: 'assets/Ellipse21.svg';
+  }
+  .my-name {
+    height: 10px;
+    margin-top: 10px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 40px;
+    color: #000000;
+  }
+  .others-points {
+    font-family: Inter;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 60px;
+    text-align: center;
+    color: #000000;
+  }
+}
+.first-position {
+  background: #FFD8D7;
+  border-radius: 5px;
+  height: 70px;
+  margin-top: 1.5em;
+  opacity: 0.95;
+  .others-points {
+    font-family: Inter;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 60px;
+    text-align: center;
+    color: #000000;
+  }
+  .first-colocation {
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9px;
+    line-height: 40px;
+    align-items: center;
+    color: #DB9E00;
+    height: 5px;
+  }
+  .my-name {
+    height: 10px;
+    margin-top: 10px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 40px;
+    color: #000000;
+  }
+  .profile-img {
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    left: 19px;
+    top: 16px;
+    background-image: 'assets/Ellipse22.svg';
+  }
+}
+.my-position {
+  border: 1px solid #F8544F;
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 70px;
+  margin-top: 1.5em;
+  .profile-img {
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    left: 19px;
+    top: 16px;
+    background-image: 'assets/Ellipse21.svg';
+  }
+  .points {
+    font-family: Inter;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 60px;
+    text-align: center;
+    color: #F8544F;
+  }
+  .my-colocation {
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9px;
+    line-height: 40px;
+    align-items: center;
+    color: #F8544F;
+    height: 5px;
+  }
+  .my-name {
+    height: 10px;
+    margin-top: 10px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 40px;
+    color: #000000;
+  }
+}
+.header {
+  width:100%;
+  .title {
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    color: #33303E;
+    line-height: 3em;
+  }
+  .score {
+    opacity: 0.7;
+    float: right;
+    height: 30px;
+    width: 110px;
+    background: linear-gradient(91.3deg, #FDADAA 0.27%, rgba(255, 255, 255, 0) 119.54%);
+    border: 1px solid #FFBDBB;
+    box-sizing: border-box;
+    border-radius: 120px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 25px;
+    color: #F8544F;
+    margin-right: 0px;
+    margin-top: 2em;
+    text-align: center;
+  }
+}
+.region {
+  background: #F6F4FF;
+  border-radius: 8.91px;
+  color: #F8544F;
+  opacity: 0.8;
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  height: 40px;
+  vertical-align: middle;
+  line-height: 30px;
+  left: 0%;
+  right: 0%;
+  top: 5%;
+  bottom: 0%;
+  .state {
+    background: #FFFFFF;
+    border: 0.5px solid rgba(98, 60, 234, 0.06);
+    box-shadow: 0px 3px 1px rgba(131, 99, 243, 0.05);
+    border-radius: 8.91px;
+    vertical-align: middle;
+    line-height: 30px;
+    height: 30px;
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: -0.084px;
+    color: #F8544F;
+  }
+}
+
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	border-top: 2px solid #B8A7F5;
+	background-color: #fff;
+	width: 100vw;
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	color: #F49F1F;
+	font-family: Inter;
+	font-style: normal;
+	font-size: 11px;
+	.img {
+		text-align: center;
+	}
+}
