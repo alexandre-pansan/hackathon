@@ -5,9 +5,9 @@ Este gui possui 2 aplicacoes, uma mobile (para teste, funciona no navegador) e u
 cada uma possui sua rotina de instalacao e teste, abmas estao descrita como realiza-las
 
 
-##EQUIPE 132
+## EQUIPE 132
 
-###integrantes
+### integrantes
 
 Alexandre Pansan
 
