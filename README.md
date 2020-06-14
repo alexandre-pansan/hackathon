@@ -10,7 +10,12 @@ cada uma possui sua rotina de instalacao e teste, abmas estao descrita como real
 ###integrantes
 
 Alexandre Pansan
+
 Bruno Cesar 
+
 Danilo Gomes
+
 Felipe Duzzi
+
 Gabriel Babler
+
